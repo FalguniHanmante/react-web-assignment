@@ -1,0 +1,40 @@
+.modal-container {
+    color: #fff;
+}
+
+.modal {
+    position: absolute;
+    width: 400px;
+    min-height: 500px;
+    background-color: #0E1931;
+    margin: 0 auto;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 11;
+    top: 25%;
+    padding: 20px 30px;
+}
+
+
+.overlay {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+}
+
+.modal-header {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.close-icon {
+    font-size: 24px;
+    font-weight: light;
+    padding: 8px 0px;
+}

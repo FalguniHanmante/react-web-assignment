@@ -1,0 +1,127 @@
+.post-container {
+    border-top: 1px solid #243453;
+    border-bottom: 1px solid #243453;
+    min-height: 150px;
+    color: #fff;
+    padding: 20px 50px 10px 50px
+}
+
+.user-name {
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.caption-text {
+    color: #9cacca;
+    font-weight: light;
+    font-size: 14px;
+}
+
+.header {
+    margin: 20px;
+    height: 64px;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+}
+
+.tags {
+    background-color: #28395a;
+    height: 20px;
+    border-radius: 10px;
+    margin: 10px 10px 10px 0px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: light;
+    color: #cfd7e3
+}
+
+.tags-container {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.create-btn {
+    background-color: #e88607;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    border-radius: 20px;
+}
+
+.align-right {
+    position: absolute;
+    right: 0;
+}
+
+button {
+    display: inline-block;
+    border: none;
+    padding: 8px  2rem;
+    margin: 0;
+    text-decoration: none;
+    background-color: transparent;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+}
+
+.create-chirp-text {
+    color: #e88607
+}
+
+.form-field-container {
+    margin: 50px 0;
+}
+
+#createChirpForm label {
+    font-size: 14px;
+    font-weight: bold;
+    display: block;
+    margin: 10px 0;
+}
+
+#createChirpForm input {
+    width: 70%;
+    height: 30px;
+    background: transparent;
+    border: 0px;
+    color: #6d7b98
+}
+
+#createChirpForm input:focus {
+    outline: none;
+}
+
+#createChirpForm input::placeholder {
+    color: #3f4b64;
+}
+
+.btn-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.cancel-btn {
+    background-color: #2b4275;
+    color: #fff;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 20px;
+    margin-left: 20px;
+}
+
+.tag-wrapper {
+    margin-top: 30px;
+}
+
+.expand {
+    cursor: pointer;
+}

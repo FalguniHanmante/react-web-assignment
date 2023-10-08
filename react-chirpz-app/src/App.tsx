@@ -1,24 +1,30 @@
 import React from 'react';
-import logo from './logo.svg';
+
+import PostsList from './components/PostsList';
+import Logo from './images/ChirpzLogoVector.svg';
+import Menu from './images/Menu.svg';
+import ProfilePhoto from './images/ProfilePicture.png'
+
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="container">
+      <div className="left-section">
+        <div className='logo margin-20'>
+          <img src={Logo} alt='app-logo' height={64} width={64} />
+        </div>
+
+      </div>
+      <PostsList user={'John Doe'} />
+
+      <div className="right-section">
+        <div className='profile-container margin-20'> 
+          <img src={ProfilePhoto} alt="profile-icon" height={32} width={32} />
+          <img src={Menu} alt='menu-icon' height={32} width={32} />
+        </div>
+
+      </div>
     </div>
   );
 }
